@@ -4,9 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Kishor Kumar Khadka</title>
- <head>
-     
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+        <!-- left sidebar -->
+            <aside class="aside aside-bg sidenav" id="mySidenav">
+                    <a href="javascript:void(0)" class="closebtn cross-btn" onclick="closeNav()">&times;</a>
 
+                <div class="thumbnail-img">
+                  <img class="img-item" src="/images/kishor.jpg"  alt="kishor" title="kishor">
+                </div>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="">Identity design</a></li>
+                        <li><a href="">Illustration</a></li>
+                        <li><a href="">Photo manipulation</a></li>
+                        <li><a href="">Hire me</a></li>
+                        
+                    </ul>
+            </nav>
+            </aside>
+                <!-- End of left side bar -->
+
+                <!-- start of main container -->
+                <div class="main-container">
+                    <div class="m-open-sidebar">
+                            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                    </div>
+                        
+                    <div class="main-container__define flex-define">
+                        <main class="main ">
+                            <figure class="column column-1">
+                                <img src="/images/logo.png" alt="" >
+                                
+                            </figure>
+                            <figcaption class="column column-2">
+                                Graphic Designer
+                                
+                            </figcaption>
+                            
+                        </main>
+                    </div>
+                </div>
+                <!-- end of main container -->
+        </div>
+    </div>
+    <script>
+            function openNav() {
+              document.getElementById("mySidenav").style.width = "100%";
+            }
+            
+            function closeNav() {
+              document.getElementById("mySidenav").style.width = "0";
+            }
+            </script>
 </body>
-</html>
+</html>  
