@@ -93,7 +93,7 @@ $screen-xl-min: 1200px;
                     text-decoration: none;
                     color:$fcolor-primary;
                     font-size: $fontSize-nav;
-                    
+                    text-transform: capitalize;
                 }
             }
         }
@@ -211,7 +211,7 @@ $screen-xl-min: 1200px;
             width:100%;
             overflow-x:hidden;
            position: absolute; 
-           
+           left:3%;
            top:60%;
         
            @media (max-width: #{$screen-md-min}) {
