@@ -17,14 +17,14 @@
 .name-title .name {
   color:#fff;
   align:center;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 200;
 }
 .name-title .title {
   color:#fff;
   align:center;
-  font-size: 30px;
-  font-weight: 200;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .wrapper {
