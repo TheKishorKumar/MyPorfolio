@@ -111,7 +111,7 @@
 
 .aside .navbar {
   position: fixed;
-  top: 40%;
+  top: 65%;
 }
 
 @media (max-width: 768px) {
