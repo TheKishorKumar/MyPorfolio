@@ -380,6 +380,8 @@
 
 .footer .footer__button button:hover {
   background: #be1F50;
+  text-decoration: none;
+  color:white;
 }
 
 /*# sourceMappingURL=style.css.map */
