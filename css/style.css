@@ -14,7 +14,10 @@
   font-family: "aileronblack";
   overflow-x: hidden;
 }
-
+.name-title {
+  color:#fff;
+  align:center;
+}
 .wrapper {
   width: 100%;
   height: 100%;
