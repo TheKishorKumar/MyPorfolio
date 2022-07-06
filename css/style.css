@@ -14,13 +14,13 @@
   font-family: "aileronblack";
   overflow-x: hidden;
 }
-.name-title .p1 {
+.name-title .name {
   color:#fff;
   align:center;
   font-size: 24px;
   font-weight: 400;
 }
-.name-title .p2 {
+.name-title .title {
   color:#fff;
   align:center;
   font-size: 20px;
