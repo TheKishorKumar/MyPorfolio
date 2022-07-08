@@ -378,8 +378,12 @@
   cursor: pointer;
 }
 
-.footer .footer__button button h3 a {
+.footer .footer__button button:hover {
   background: #be1F50;
+}
+
+.footer .footer__button button h3 a {
+  
   text-decoration: none;
   color:white;
 }
