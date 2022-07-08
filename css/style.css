@@ -378,7 +378,7 @@
   cursor: pointer;
 }
 
-.footer .footer__button button:hover {
+.footer .footer__button button h3 a {
   background: #be1F50;
   text-decoration: none;
   color:white;
